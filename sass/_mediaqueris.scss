@@ -1,0 +1,61 @@
+
+/*PAGINA INDEX*/
+@media  screen and (max-width: 768px) {
+
+    .eleginos{
+        display: block
+    }
+    
+    .eleginos .lista{
+    text-align: center;
+    }
+    
+}
+
+/*PAGINA CATEGORIAS*/
+@media (max-width:500px){
+
+    .gallery-container{
+    display: inline-block;
+    }
+    
+    .gallery__item{
+    margin-bottom: 2rem;
+    }
+    
+}
+
+  
+/*PAGINA PRODUCTOS*/
+@media  screen and (max-width: 600px) {
+    .eleginos img, nav{
+        display: none;
+    }
+    
+    
+    .container .productos img{
+    width: 250px;
+    height: 370px;
+    object-fit:none;
+    }
+    
+    
+    .container-cartas{
+    border-radius: none;
+    border: none;
+    box-shadow: none
+    }
+    
+    .container-cartas{
+    display:block;
+    }
+    
+    .carta{
+    padding: 7rem;
+    }
+    
+    .eleginos{
+    margin-top: 3rem;
+    }
+    
+}

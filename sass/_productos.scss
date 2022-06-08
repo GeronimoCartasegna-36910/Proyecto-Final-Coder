@@ -1,0 +1,32 @@
+
+.titulo-productos{
+    text-align: center;
+    font-size: rem;
+    font-weight: 700;  
+    margin-bottom: 1rem;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    & .productos{
+     border-radius: 8px;
+     box-shadow: 0 2px 2px rgb(47, 12, 80);
+     overflow: hidden;
+     margin: 20px;
+     text-align: center;
+     transition: all 0.25s;
+     padding: 1rem;
+    }
+
+    & .productos:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgb(47, 12, 80);
+    }
+}
+

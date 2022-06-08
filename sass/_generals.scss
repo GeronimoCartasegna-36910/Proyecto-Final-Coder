@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { font-family: 'Lora', serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, .6) !important;
+}
+    
+.collapse .nav-item:hover{
+    background-color: white;
+    transition: all 0.40s;
+    }
+    
+.collapse .nav-link:hover{
+    color: black !important;
+}
+
+
+p{font-size: 1.2rem;} 
+
+
+a{ color: white;
+padding: 0 1rem;
+text-decoration: none;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 20px;
+    border: 1px solid #fff;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover{
+background-color: #fff;
+color: #333;
+}
