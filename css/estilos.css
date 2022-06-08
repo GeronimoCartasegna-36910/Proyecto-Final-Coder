@@ -103,7 +103,7 @@ a {
     display: block; }
 
 .input-text {
-  width: 100%;
+  width: 50%;
   border: none;
   padding: 1.5rem;
   border-radius: .5rem; }
@@ -290,9 +290,18 @@ body {
     text-align: left; } }
 
 /*PAGINA INDEX*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
+  .input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem; } }
+
+@media screen and (max-width: 1024px) {
   .eleginos {
     display: block; }
+    .eleginos .imagenlogo {
+      text-align: center; }
   .eleginos .lista {
     text-align: center; } }
 
@@ -305,7 +314,7 @@ body {
 
 /*PAGINA PRODUCTOS*/
 @media screen and (max-width: 600px) {
-  .eleginos img, nav {
+  .eleginos img {
     display: none; }
   .container .productos img {
     width: 250px;

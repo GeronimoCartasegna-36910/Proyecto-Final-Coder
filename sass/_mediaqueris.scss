@@ -1,9 +1,24 @@
 
 /*PAGINA INDEX*/
-@media  screen and (max-width: 768px) {
+
+@media  screen and (max-width: 500px){
+
+    .input-text{
+        width: 100%;
+        border: none;
+        padding: 1.5rem;
+        border-radius: .5rem;
+    }
+}
+
+@media  screen and (max-width: 1024px) {
 
     .eleginos{
-        display: block
+        display: block;
+
+        .imagenlogo{
+            text-align: center ;
+        }
     }
     
     .eleginos .lista{
@@ -28,7 +43,7 @@
   
 /*PAGINA PRODUCTOS*/
 @media  screen and (max-width: 600px) {
-    .eleginos img, nav{
+    .eleginos img{
         display: none;
     }
     
